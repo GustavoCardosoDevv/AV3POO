@@ -1,0 +1,44 @@
+Agora vou explicar as principais características do sistema implementado:
+Classe Abstrata e Herança:
+A classe Pessoa é abstrata e serve como base para Funcionario e Hospede
+Implementa herança em duas classes: Funcionario e Hospede herdam de Pessoa
+Encapsulamento:
+Todas as classes têm seus atributos privados
+Acesso aos atributos é feito através de getters e setters
+A classe Pessoa tem atributos protected para permitir acesso das classes filhas
+Tratamento de Exceções:
+Todas as classes implementam tratamento de exceções diferentes do IOException:
+FileNotFoundException em todas as classes
+NumberFormatException ao converter strings para números
+ArrayIndexOutOfBoundsException ao manipular arrays
+NullPointerException ao trabalhar com objetos nulos
+IllegalArgumentException ao validar dados de entrada
+Persistência em Arquivo:
+Todas as classes implementam métodos para ler e escrever em arquivos .txt
+Cada classe tem seu próprio arquivo de persistência
+Os dados são salvos em formato texto com separadores
+Método toString:
+Todas as classes implementam o método toString
+Formatação adequada para exibição dos dados
+Uso de separadores para facilitar a leitura do arquivo
+Menu Funcional:
+Menu principal com opções para todas as entidades
+Submenus para cada entidade com operações CRUD
+Tratamento de erros e validações de entrada
+Interface amigável com mensagens claras
+Associações:
+Reserva tem associação com Quarto e Hospede
+Consumo tem associação com Reserva e Produto
+Funcionalidades:
+Inserção de dados
+Edição de registros
+Listagem de todos os registros
+Consulta por ID
+Exibição detalhada dos dados
+Para executar o sistema:
+Compile todos os arquivos .java
+Execute a classe Main
+Use o menu para navegar entre as funcionalidades
+Os dados serão salvos automaticamente em arquivos .txt
+O sistema atende a todos os requisitos solicitados e implementa boas práticas de programação orientada a objetos.
+
